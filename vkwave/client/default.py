@@ -28,7 +28,7 @@ async def _logging_signal_before_request(ctx: RequestContext):
 
 
 class AIOHTTPClient(AbstractAPIClient):
-    API_URL: Final = "https://api.vk.com/method/{method_name}"
+    API_URL: Final = "https://api.vk.ru/method/{method_name}"
 
     def __init__(
         self,
