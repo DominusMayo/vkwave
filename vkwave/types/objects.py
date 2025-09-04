@@ -10273,6 +10273,7 @@ class PhotosPhotoSizesType(enum.Enum):
     N = "n"
     F = "f"
     MAX = "max"
+    BASE = "base"
 
 
 class PhotosPhotoTag(BaseModel):
